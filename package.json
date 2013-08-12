@@ -1,6 +1,6 @@
 {
   "name": "Autocomplete",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Autocomplete ============",
   "main": "src/Autocomplete.js",
   "browserify": "index-browserify.js",
