@@ -1,3 +1,3 @@
-require(__dirname + '/src/Autocomplete');
+require('./src/Autocomplete');
 module.exports = window.Autocomplete;
 (function () { delete this.Autocomplete; })();
