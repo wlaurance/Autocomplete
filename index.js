@@ -1,3 +1,3 @@
 require('./src/Autocomplete');
-module.exports = Autocomplete;
+module.exports = window.Autocomplete;
 (function () { delete this.Autocomplete; })();
