@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "description": "Autocomplete ============",
   "main": "src/Autocomplete.js",
-  "browserify": "index.js",
+  "browserify": "index-browserify.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/wlaurance/Autocomplete/issues"
+  },
+  "devDependencies": {
+    "browserify": "~2.26.0",
+    "mocha": "~1.12.0"
   }
 }
