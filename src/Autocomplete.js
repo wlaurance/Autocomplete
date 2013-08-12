@@ -568,7 +568,11 @@
 	    msie = getIEVersion();
 	
 	// Expose:
-	window.Autocomplete = Autocomplete;
+  if (typeof module !== 'undefined' ) {
+    module.exports = Autocomplete;
+  } else {
+	  window.Autocomplete = Autocomplete;
+  }
 	
-})(this, this.document);
+})(this, document);
 

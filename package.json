@@ -1,0 +1,22 @@
+{
+  "name": "Autocomplete",
+  "version": "0.0.1",
+  "description": "Autocomplete ============",
+  "main": "src/Autocomplete.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wlaurance/Autocomplete.git"
+  },
+  "author": "Matt Murphy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlaurance/Autocomplete/issues"
+  },
+  "devDependencies": {
+    "browserify": "~2.26.0",
+    "mocha": "~1.12.0"
+  }
+}
