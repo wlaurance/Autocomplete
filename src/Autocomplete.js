@@ -570,5 +570,5 @@
 	// Expose:
 	window.Autocomplete = Autocomplete;
 	
-})(this, this.document);
+})(this, document);
 
